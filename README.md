@@ -10,7 +10,8 @@ This app is a practice full stack app with MERN stack. The project is inspired b
 ## Deploy Instruction (Heroku)
 
 1. Clone the repository and create a Heroku account
-2. Create a database with [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and set the DB URI to the project environment variable in the root directory in .env.
+2. Create a database with [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and get the [Mongo Atlas ConnectionString](https://docs.mongodb.com/guides/cloud/connectionstring/) to allow the application to connect the db. The db schema follows the tutorial on [Learn the MERN Stack - Full Tutorial (MongoDB, Express, React, Node.js)](https://youtu.be/7CqJlxBYj-M)
+3. Set the connection string to the server's environment variable in 'Exercise-Tracker/.env'.
 
     ```bash
     //In Exercise-Tracker/
