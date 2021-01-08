@@ -1,0 +1,10 @@
+MERN tutorial: https://www.youtube.com/watch?v=7CqJlxBYj-M&t=2263s
+
+//Packages
+npm install cors --save
+
+//In backend/
+1. Create an env var in .env
+
+//React libraries
+npm install react-router-dom
