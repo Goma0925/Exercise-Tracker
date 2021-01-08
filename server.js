@@ -28,8 +28,8 @@ app.use("/api/exercises", exerciseRouter);
 app.use("/api/users", userRouter);
 
 //Static paths
-app.use("/app", express.static(path.join(__dirname, "../exer_tracker_frontend/build")));
-app.use("/static", express.static(path.join(__dirname, "../exer_tracker_frontend/build/static")));
+app.use("/app", express.static(path.join(__dirname, "./exer_tracker_client/build")));
+app.use("/static", express.static(path.join(__dirname, "./exer_tracker_client/build/static")));
 
 app.listen(port, ()=>{
   console.log("Server is running on", port);
