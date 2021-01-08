@@ -10,9 +10,11 @@ This app is a practice full stack app with MERN stack. The project is inspired b
 ## Deploy Instruction (Heroku)
 
 1. Clone the repository and create a Heroku account
-2. Create a database with MongoDB and set environment variable in the root directory
+2. Create a database with [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and set the DB URI to the project environment variable in the root directory in .env.
 
     ```bash
+    //In Exercise-Tracker/
+    touch .env
     //In .env
     ATLAS_URI = mongodb+srv://user:example@project.????.mongodb.net/<dbname>?retryWrites=true&w=majority
     ```
